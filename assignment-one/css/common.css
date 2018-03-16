@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.img_respnsive{
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.clr::before,
+.clr::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* START */
+.side {
+    float: left;
+    width: 15%;
+    margin-top:10px;
+}
+
+.middle {
+    margin-top:10px;
+    float: left;
+    width: 70%;
+}
+
+/* Place text to the right */
+.right {
+    text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.fixedColumnDescription
+{    
+    width:100px;
+    min-height:35px;
+    float:left;
+    margin:0 0 0 0px;
+    padding:0 0 0 2px; 
+    font:normal 9pt Arial;
+    display:inline;
+    border:1px solid Cyan;
+    background-color: Yellow;
+    
+}
+
+.fixedColumnValue
+{    
+    width:30px;
+    min-height:35px;
+    float:left;
+    margin:0 0 0 0px;
+    padding:0 0 0 2px; 
+    font:normal 9pt Arial;
+    display:inline;
+    border:1px solid Red;
+    word-wrap: break-word;
+}
+.dataLine
+{    
+    width:95%; 
+    min-width:950px;
+    height:auto;
+    margin:1px 1px 1px 1px;
+    padding: 0 0 0 0px;
+    /*border:1px solid Red;*/
+}
+
+
+.displayDiv
+{
+    padding:0 0 0 0;
+    margin: 0 0 0 0;
+    width:100%; 
+    min-width:1000px;
+    /*border:1px solid Cyan;*/
+}
